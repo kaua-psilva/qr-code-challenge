@@ -71,3 +71,30 @@ footer a{
         margin-top: 0px;
     }
 }
+@media screen and (max-width: 375px) {
+    #card{
+        width: 350px;
+        height: 500px;
+    }
+}
+@media screen and (max-width: 330px) {
+    #card{
+        width: 310px;
+        height: 500px;
+    }
+    #qr-code{
+        width: 280px;
+    }
+}
+@media screen and (max-width: 315px) {
+    #card{
+        width: 290px;
+        height: 460px;
+    }
+    #qr-code{
+        width: 260px;
+    }
+    #card h1{
+        font-size: 18px;
+    }
+}
